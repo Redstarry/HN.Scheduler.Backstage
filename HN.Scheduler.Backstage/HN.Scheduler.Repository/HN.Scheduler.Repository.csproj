@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="PetaPoco.Compiled" Version="6.0.441" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HN.Scheduler.Repository.Petapoco\HN.Scheduler.Repository.Petapoco.csproj" />
+  </ItemGroup>
+
+</Project>

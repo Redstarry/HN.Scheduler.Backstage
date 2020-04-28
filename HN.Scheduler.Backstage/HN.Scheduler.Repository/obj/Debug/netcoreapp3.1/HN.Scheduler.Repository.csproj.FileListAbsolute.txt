@@ -1,0 +1,4 @@
+E:\BaiduNetdiskDownload\HN.Scheduler.Backstage\HN.Scheduler.Repository\bin\Debug\netcoreapp3.1\HN.Scheduler.Repository.Petapoco.dll
+E:\BaiduNetdiskDownload\HN.Scheduler.Backstage\HN.Scheduler.Repository\obj\Debug\netcoreapp3.1\HN.Scheduler.Repository.csprojAssemblyReference.cache
+E:\BaiduNetdiskDownload\HN.Scheduler.Backstage\HN.Scheduler.Repository\obj\Debug\netcoreapp3.1\HN.Scheduler.Repository.AssemblyInfoInputs.cache
+E:\BaiduNetdiskDownload\HN.Scheduler.Backstage\HN.Scheduler.Repository\obj\Debug\netcoreapp3.1\HN.Scheduler.Repository.AssemblyInfo.cs

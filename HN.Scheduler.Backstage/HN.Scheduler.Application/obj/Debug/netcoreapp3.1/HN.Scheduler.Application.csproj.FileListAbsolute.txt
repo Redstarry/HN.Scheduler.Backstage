@@ -1,0 +1,4 @@
+E:\BaiduNetdiskDownload\HN.Scheduler.Backstage\HN.Scheduler.Application\bin\Debug\netcoreapp3.1\HN.Scheduler.Application.exe
+E:\BaiduNetdiskDownload\HN.Scheduler.Backstage\HN.Scheduler.Application\obj\Debug\netcoreapp3.1\HN.Scheduler.Application.csprojAssemblyReference.cache
+E:\BaiduNetdiskDownload\HN.Scheduler.Backstage\HN.Scheduler.Application\obj\Debug\netcoreapp3.1\HN.Scheduler.Application.AssemblyInfoInputs.cache
+E:\BaiduNetdiskDownload\HN.Scheduler.Backstage\HN.Scheduler.Application\obj\Debug\netcoreapp3.1\HN.Scheduler.Application.AssemblyInfo.cs

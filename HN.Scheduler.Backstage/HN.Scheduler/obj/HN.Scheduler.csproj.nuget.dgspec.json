@@ -1,0 +1,335 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\BaiduNetdiskDownload\\HN.Scheduler.Backstage\\HN.Scheduler\\HN.Scheduler.csproj": {}
+  },
+  "projects": {
+    "E:\\BaiduNetdiskDownload\\HN.Scheduler.Backstage\\HN.Scheduler.Application\\HN.Scheduler.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\BaiduNetdiskDownload\\HN.Scheduler.Backstage\\HN.Scheduler.Application\\HN.Scheduler.Application.csproj",
+        "projectName": "HN.Scheduler.Application",
+        "projectPath": "E:\\BaiduNetdiskDownload\\HN.Scheduler.Backstage\\HN.Scheduler.Application\\HN.Scheduler.Application.csproj",
+        "packagesPath": "C:\\Users\\philip\\.nuget\\packages\\",
+        "outputPath": "E:\\BaiduNetdiskDownload\\HN.Scheduler.Backstage\\HN.Scheduler.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\philip\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "E:\\BaiduNetdiskDownload\\HN.Scheduler.Backstage\\HN.Scheduler.Model\\HN.Scheduler.Model.csproj": {
+                "projectPath": "E:\\BaiduNetdiskDownload\\HN.Scheduler.Backstage\\HN.Scheduler.Model\\HN.Scheduler.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[8.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\BaiduNetdiskDownload\\HN.Scheduler.Backstage\\HN.Scheduler.Model\\HN.Scheduler.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\BaiduNetdiskDownload\\HN.Scheduler.Backstage\\HN.Scheduler.Model\\HN.Scheduler.Model.csproj",
+        "projectName": "HN.Scheduler.Model",
+        "projectPath": "E:\\BaiduNetdiskDownload\\HN.Scheduler.Backstage\\HN.Scheduler.Model\\HN.Scheduler.Model.csproj",
+        "packagesPath": "C:\\Users\\philip\\.nuget\\packages\\",
+        "outputPath": "E:\\BaiduNetdiskDownload\\HN.Scheduler.Backstage\\HN.Scheduler.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\philip\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "PetaPoco.Compiled": {
+              "target": "Package",
+              "version": "[6.0.441, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\BaiduNetdiskDownload\\HN.Scheduler.Backstage\\HN.Scheduler.Repository.Petapoco\\HN.Scheduler.Repository.Petapoco.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\BaiduNetdiskDownload\\HN.Scheduler.Backstage\\HN.Scheduler.Repository.Petapoco\\HN.Scheduler.Repository.Petapoco.csproj",
+        "projectName": "HN.Scheduler.Repository.Petapoco",
+        "projectPath": "E:\\BaiduNetdiskDownload\\HN.Scheduler.Backstage\\HN.Scheduler.Repository.Petapoco\\HN.Scheduler.Repository.Petapoco.csproj",
+        "packagesPath": "C:\\Users\\philip\\.nuget\\packages\\",
+        "outputPath": "E:\\BaiduNetdiskDownload\\HN.Scheduler.Backstage\\HN.Scheduler.Repository.Petapoco\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\philip\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\BaiduNetdiskDownload\\HN.Scheduler.Backstage\\HN.Scheduler.Repository\\HN.Scheduler.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\BaiduNetdiskDownload\\HN.Scheduler.Backstage\\HN.Scheduler.Repository\\HN.Scheduler.Repository.csproj",
+        "projectName": "HN.Scheduler.Repository",
+        "projectPath": "E:\\BaiduNetdiskDownload\\HN.Scheduler.Backstage\\HN.Scheduler.Repository\\HN.Scheduler.Repository.csproj",
+        "packagesPath": "C:\\Users\\philip\\.nuget\\packages\\",
+        "outputPath": "E:\\BaiduNetdiskDownload\\HN.Scheduler.Backstage\\HN.Scheduler.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\philip\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "E:\\BaiduNetdiskDownload\\HN.Scheduler.Backstage\\HN.Scheduler.Repository.Petapoco\\HN.Scheduler.Repository.Petapoco.csproj": {
+                "projectPath": "E:\\BaiduNetdiskDownload\\HN.Scheduler.Backstage\\HN.Scheduler.Repository.Petapoco\\HN.Scheduler.Repository.Petapoco.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "PetaPoco.Compiled": {
+              "target": "Package",
+              "version": "[6.0.441, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\BaiduNetdiskDownload\\HN.Scheduler.Backstage\\HN.Scheduler\\HN.Scheduler.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\BaiduNetdiskDownload\\HN.Scheduler.Backstage\\HN.Scheduler\\HN.Scheduler.csproj",
+        "projectName": "HN.Scheduler",
+        "projectPath": "E:\\BaiduNetdiskDownload\\HN.Scheduler.Backstage\\HN.Scheduler\\HN.Scheduler.csproj",
+        "packagesPath": "C:\\Users\\philip\\.nuget\\packages\\",
+        "outputPath": "E:\\BaiduNetdiskDownload\\HN.Scheduler.Backstage\\HN.Scheduler\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\philip\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "E:\\BaiduNetdiskDownload\\HN.Scheduler.Backstage\\HN.Scheduler.Application\\HN.Scheduler.Application.csproj": {
+                "projectPath": "E:\\BaiduNetdiskDownload\\HN.Scheduler.Backstage\\HN.Scheduler.Application\\HN.Scheduler.Application.csproj"
+              },
+              "E:\\BaiduNetdiskDownload\\HN.Scheduler.Backstage\\HN.Scheduler.Model\\HN.Scheduler.Model.csproj": {
+                "projectPath": "E:\\BaiduNetdiskDownload\\HN.Scheduler.Backstage\\HN.Scheduler.Model\\HN.Scheduler.Model.csproj"
+              },
+              "E:\\BaiduNetdiskDownload\\HN.Scheduler.Backstage\\HN.Scheduler.Repository\\HN.Scheduler.Repository.csproj": {
+                "projectPath": "E:\\BaiduNetdiskDownload\\HN.Scheduler.Backstage\\HN.Scheduler.Repository\\HN.Scheduler.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
