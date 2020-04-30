@@ -16,6 +16,7 @@ using Quartz;
 using Quartz.Impl;
 using AutoMapper;
 using System.IO;
+using HN.Scheduler.Application.MapperData;
 
 namespace HN.Scheduler
 {
@@ -31,7 +32,7 @@ namespace HN.Scheduler
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            services.AddAutoMapper(typeof(HN.Scheduler.Application.MapperData.MapperProfile).Assembly);
+            services.AddAutoMapper(typeof(MapperProfile).Assembly);
             services.AddCors(option => option.AddPolicy("Domain", builder => builder.AllowAnyHeader().AllowAnyMethod().AllowAnyOrigin()));
             //API ÎÄµµµÄ×¢²á
             services.AddSwaggerGen(option =>
