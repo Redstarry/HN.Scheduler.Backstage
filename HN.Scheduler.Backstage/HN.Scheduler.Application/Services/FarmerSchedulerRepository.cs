@@ -48,10 +48,12 @@ namespace HN.Scheduler.Repository
             bool result = await _jobDetailAndTrigger.AddSchedulerType(OperationSqlData);
             if (!result) return new ResponseData("任务创建失败", "", StatusCode.Fail);
             //var Trigger = await scheduler.GetTrigger(new TriggerKey(OperationSqlData.Name, "defalut"));
+            //获取任务的触发器
             var Trigger = await scheduler.GetTrigger(new TriggerKey(OperationSqlData.Name));
             OperationSqlData.IsExists = 1;
             OperationSqlData.ExecuteReuslt = 0;
             OperationSqlData.CreateTime = DateTime.Now.ToString("F");
+            // 获取任务的执行时间
             OperationSqlData.PresetTime = TimeZoneInfo.ConvertTime((DateTimeOffset)Trigger.GetNextFireTimeUtc(), TimeZoneInfo.Local).ToString("F");
             await _Database.InsertAsync(OperationSqlData);
             return new ResponseData("新增成功", OperationSqlData, StatusCode.Success);
@@ -83,6 +85,7 @@ namespace HN.Scheduler.Repository
             {
                 return new ResponseData(Result.ToString(), "", StatusCode.Fail);
             }
+            // 组装条件查询的SQL语句
             var sql = SqlStatement.SqlAssembly(selectScheduler);
             var ResultData = await _Database.PageAsync<DataBaseScheduler>(selectScheduler.PageNumber, selectScheduler.PageSize, sql);
             return new ResponseData("查询成功", ResultData, StatusCode.Success);
@@ -102,6 +105,7 @@ namespace HN.Scheduler.Repository
            await  scheduler.PauseJob(new JobKey(updateScheduler.Name));
             var job = await scheduler.GetJobDetail(new JobKey(updateScheduler.Name));
            await scheduler.UnscheduleJob(new TriggerKey(updateScheduler.Name)); // 取消触发器
+            // 检查更改的数据是否有间隔时间
             if (string.IsNullOrEmpty(updateScheduler.Interval))
             {
                 trigger = TriggerBuilder.Create()
@@ -120,12 +124,15 @@ namespace HN.Scheduler.Repository
                 .Build();
             }
             
+            // 把任务和触发器绑定
             await scheduler.ScheduleJob(job, trigger);
            
             Sql sql = new Sql();
             sql.Set("PresetTime = @0, Interval = @1", updateScheduler.PresetTime, updateScheduler.Interval)
                 .Where("id = @0", id);
+
             if(await _Database.UpdateAsync<DataBaseScheduler>(sql) < 0) return new ResponseData("修改失败", "", StatusCode.Fail);
+            // 重启任务
             await scheduler.ResumeJob(new JobKey(updateScheduler.Name));
             return new ResponseData("修改成功","",StatusCode.Success);
         }

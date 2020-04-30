@@ -21,9 +21,12 @@ namespace HN.Scheduler.Application.Jobs
         {
             scheduler =await _schedulerFactory.GetScheduler();
             await scheduler.Start();
+            // 创建任务
             var jobDetail = JobBuilder.Create<ExecuteJob>()
                 .WithIdentity(OperationSqlData.Name)
                 .Build();
+
+            // 根据任务的类型 来创建触发器
             switch (OperationSqlData.TaskType)
             {
                 case "OneOff":
@@ -53,7 +56,9 @@ namespace HN.Scheduler.Application.Jobs
                 default:
                     return false;
             }
+            // 绑定任务和触发器
             await scheduler.ScheduleJob(jobDetail, _trigger);
+             // 添加监听
             scheduler.ListenerManager.AddJobListener(new JobListen());
             return true;
         }
