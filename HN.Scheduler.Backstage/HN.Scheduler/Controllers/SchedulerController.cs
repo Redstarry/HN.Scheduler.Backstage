@@ -3,13 +3,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using HN.Scheduler.Application;
+using HN.Scheduler.Model;
 using HN.Scheduler.Model.FarmerScheduler;
 using HN.Scheduler.Repository;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace HN.Scheduler.Controllers
 {
+    [EnableCors("Domain")]
     [Route("api/[controller]")]
     [ApiController]
     public class SchedulerController : ControllerBase
@@ -25,46 +28,51 @@ namespace HN.Scheduler.Controllers
         /// </summary>
         /// <returns></returns>
         [HttpGet]
-        public Task<IActionResult> GetSchedulerItems()
+        public async Task<IActionResult> GetSchedulerItems([FromQuery] Page page)
         {
-            throw new Exception();
+            var Message = await _farmerSchedulerRepository.GetSchedulerItmes(page);
+            return Ok(Message);
         }
         /// <summary>
         ///  根据条件进行查询数据
         /// </summary>
         /// <returns></returns>
         [HttpPost("ConditionQuery")]
-        public Task<IActionResult> GetScheduler(SelectScheduler selectScheduler)
+        public async Task<IActionResult> GetScheduler(SelectScheduler selectScheduler)
         {
-            throw new Exception();
+            var Message = await _farmerSchedulerRepository.GetConditionQuery(selectScheduler);
+            return Ok(Message);
         }
         /// <summary>
         ///  添加数据
         /// </summary>
         /// <returns></returns>
         [HttpPost]
-        public Task<IActionResult> AddScheduler(CreateScheduler createScheduler)
+        public async Task<IActionResult> AddScheduler(CreateScheduler createScheduler)
         {
-            
-            throw new Exception();
+
+           var Message =  await _farmerSchedulerRepository.AddScheduler(createScheduler);
+            return Ok(Message);
         }
         /// <summary>
         ///  更新数据
         /// </summary>
         /// <returns></returns>
-        [HttpPut("id")]
-        public Task<IActionResult> UpdateScheduler(string id, [FromBody]UpdateScheduler updateScheduler)
+        [HttpPut("{id}")]
+        public async Task<IActionResult> UpdateScheduler(string id, [FromBody]UpdateScheduler updateScheduler)
         {
-            throw new Exception();
+            var Message = await _farmerSchedulerRepository.UpDataScheduler(id, updateScheduler);
+            return Ok(Message);
         }
         /// <summary>
         ///  删除数据
         /// </summary>
         /// <returns></returns>
-        [HttpDelete("id")]
-        public Task<IActionResult> DeleteScheduler(string id)
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteScheduler(string id)
         {
-            throw new Exception();
+            var Message = await _farmerSchedulerRepository.DeleteScheduler(id);
+            return Ok(Message);
         }
     }
 }

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "HN.Scheduler.Repository.Petapoco/1.0.0": {
+        "runtime": {
+          "HN.Scheduler.Repository.Petapoco.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HN.Scheduler.Repository.Petapoco/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

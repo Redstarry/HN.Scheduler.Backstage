@@ -1,23 +1,84 @@
 {
   "format": 1,
   "restore": {
-    "E:\\BaiduNetdiskDownload\\HN.Scheduler.Backstage\\HN.Scheduler.Repository\\HN.Scheduler.Repository.csproj": {}
+    "F:\\GIthub\\HN.Scheduler.Backstage\\HN.Scheduler.Backstage\\HN.Scheduler.Repository\\HN.Scheduler.Repository.csproj": {}
   },
   "projects": {
-    "E:\\BaiduNetdiskDownload\\HN.Scheduler.Backstage\\HN.Scheduler.Repository.Petapoco\\HN.Scheduler.Repository.Petapoco.csproj": {
+    "F:\\GIthub\\HN.Scheduler.Backstage\\HN.Scheduler.Backstage\\HN.Scheduler.Model\\HN.Scheduler.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\BaiduNetdiskDownload\\HN.Scheduler.Backstage\\HN.Scheduler.Repository.Petapoco\\HN.Scheduler.Repository.Petapoco.csproj",
-        "projectName": "HN.Scheduler.Repository.Petapoco",
-        "projectPath": "E:\\BaiduNetdiskDownload\\HN.Scheduler.Backstage\\HN.Scheduler.Repository.Petapoco\\HN.Scheduler.Repository.Petapoco.csproj",
-        "packagesPath": "C:\\Users\\philip\\.nuget\\packages\\",
-        "outputPath": "E:\\BaiduNetdiskDownload\\HN.Scheduler.Backstage\\HN.Scheduler.Repository.Petapoco\\obj\\",
+        "projectUniqueName": "F:\\GIthub\\HN.Scheduler.Backstage\\HN.Scheduler.Backstage\\HN.Scheduler.Model\\HN.Scheduler.Model.csproj",
+        "projectName": "HN.Scheduler.Model",
+        "projectPath": "F:\\GIthub\\HN.Scheduler.Backstage\\HN.Scheduler.Backstage\\HN.Scheduler.Model\\HN.Scheduler.Model.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "F:\\GIthub\\HN.Scheduler.Backstage\\HN.Scheduler.Backstage\\HN.Scheduler.Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\philip\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "PetaPoco.Compiled": {
+              "target": "Package",
+              "version": "[6.0.441, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\GIthub\\HN.Scheduler.Backstage\\HN.Scheduler.Backstage\\HN.Scheduler.Repository.Petapoco\\HN.Scheduler.Repository.Petapoco.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\GIthub\\HN.Scheduler.Backstage\\HN.Scheduler.Backstage\\HN.Scheduler.Repository.Petapoco\\HN.Scheduler.Repository.Petapoco.csproj",
+        "projectName": "HN.Scheduler.Repository.Petapoco",
+        "projectPath": "F:\\GIthub\\HN.Scheduler.Backstage\\HN.Scheduler.Backstage\\HN.Scheduler.Repository.Petapoco\\HN.Scheduler.Repository.Petapoco.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "F:\\GIthub\\HN.Scheduler.Backstage\\HN.Scheduler.Backstage\\HN.Scheduler.Repository.Petapoco\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -59,20 +120,20 @@
         }
       }
     },
-    "E:\\BaiduNetdiskDownload\\HN.Scheduler.Backstage\\HN.Scheduler.Repository\\HN.Scheduler.Repository.csproj": {
+    "F:\\GIthub\\HN.Scheduler.Backstage\\HN.Scheduler.Backstage\\HN.Scheduler.Repository\\HN.Scheduler.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\BaiduNetdiskDownload\\HN.Scheduler.Backstage\\HN.Scheduler.Repository\\HN.Scheduler.Repository.csproj",
+        "projectUniqueName": "F:\\GIthub\\HN.Scheduler.Backstage\\HN.Scheduler.Backstage\\HN.Scheduler.Repository\\HN.Scheduler.Repository.csproj",
         "projectName": "HN.Scheduler.Repository",
-        "projectPath": "E:\\BaiduNetdiskDownload\\HN.Scheduler.Backstage\\HN.Scheduler.Repository\\HN.Scheduler.Repository.csproj",
-        "packagesPath": "C:\\Users\\philip\\.nuget\\packages\\",
-        "outputPath": "E:\\BaiduNetdiskDownload\\HN.Scheduler.Backstage\\HN.Scheduler.Repository\\obj\\",
+        "projectPath": "F:\\GIthub\\HN.Scheduler.Backstage\\HN.Scheduler.Backstage\\HN.Scheduler.Repository\\HN.Scheduler.Repository.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "F:\\GIthub\\HN.Scheduler.Backstage\\HN.Scheduler.Backstage\\HN.Scheduler.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\philip\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -85,8 +146,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "E:\\BaiduNetdiskDownload\\HN.Scheduler.Backstage\\HN.Scheduler.Repository.Petapoco\\HN.Scheduler.Repository.Petapoco.csproj": {
-                "projectPath": "E:\\BaiduNetdiskDownload\\HN.Scheduler.Backstage\\HN.Scheduler.Repository.Petapoco\\HN.Scheduler.Repository.Petapoco.csproj"
+              "F:\\GIthub\\HN.Scheduler.Backstage\\HN.Scheduler.Backstage\\HN.Scheduler.Model\\HN.Scheduler.Model.csproj": {
+                "projectPath": "F:\\GIthub\\HN.Scheduler.Backstage\\HN.Scheduler.Backstage\\HN.Scheduler.Model\\HN.Scheduler.Model.csproj"
+              },
+              "F:\\GIthub\\HN.Scheduler.Backstage\\HN.Scheduler.Backstage\\HN.Scheduler.Repository.Petapoco\\HN.Scheduler.Repository.Petapoco.csproj": {
+                "projectPath": "F:\\GIthub\\HN.Scheduler.Backstage\\HN.Scheduler.Backstage\\HN.Scheduler.Repository.Petapoco\\HN.Scheduler.Repository.Petapoco.csproj"
               }
             }
           }
@@ -100,9 +164,17 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
             "PetaPoco.Compiled": {
               "target": "Package",
               "version": "[6.0.441, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.1, )"
             }
           },
           "imports": [

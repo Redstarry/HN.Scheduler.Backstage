@@ -1,16 +1,23 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
+    <OutputType>Library</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <ApplicationIcon />
+    <StartupObject />
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
     <PackageReference Include="FluentValidation.AspNetCore" Version="8.6.2" />
+    <PackageReference Include="Quartz" Version="3.0.7" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.1" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\HN.Scheduler.Model\HN.Scheduler.Model.csproj" />
+    <ProjectReference Include="..\HN.Scheduler.Repository.Petapoco\HN.Scheduler.Repository.Petapoco.csproj" />
+    <ProjectReference Include="..\HN.Scheduler.Repository\HN.Scheduler.Repository.csproj" />
   </ItemGroup>
 
 </Project>

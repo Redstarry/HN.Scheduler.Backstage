@@ -8,23 +8,23 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\philip\\.nuget\\packages\\": {},
+    "C:\\Users\\Administrator\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\BaiduNetdiskDownload\\HN.Scheduler.Backstage\\HN.Scheduler.Repository.Petapoco\\HN.Scheduler.Repository.Petapoco.csproj",
+      "projectUniqueName": "F:\\GIthub\\HN.Scheduler.Backstage\\HN.Scheduler.Backstage\\HN.Scheduler.Repository.Petapoco\\HN.Scheduler.Repository.Petapoco.csproj",
       "projectName": "HN.Scheduler.Repository.Petapoco",
-      "projectPath": "E:\\BaiduNetdiskDownload\\HN.Scheduler.Backstage\\HN.Scheduler.Repository.Petapoco\\HN.Scheduler.Repository.Petapoco.csproj",
-      "packagesPath": "C:\\Users\\philip\\.nuget\\packages\\",
-      "outputPath": "E:\\BaiduNetdiskDownload\\HN.Scheduler.Backstage\\HN.Scheduler.Repository.Petapoco\\obj\\",
+      "projectPath": "F:\\GIthub\\HN.Scheduler.Backstage\\HN.Scheduler.Backstage\\HN.Scheduler.Repository.Petapoco\\HN.Scheduler.Repository.Petapoco.csproj",
+      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+      "outputPath": "F:\\GIthub\\HN.Scheduler.Backstage\\HN.Scheduler.Backstage\\HN.Scheduler.Repository.Petapoco\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\philip\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

@@ -1,0 +1,8 @@
+F:\GIthub\HN.Scheduler.Backstage\HN.Scheduler.Backstage\HN.Scheduler.Repository.Petapoco\obj\Debug\netcoreapp3.1\HN.Scheduler.Repository.Petapoco.AssemblyInfoInputs.cache
+F:\GIthub\HN.Scheduler.Backstage\HN.Scheduler.Backstage\HN.Scheduler.Repository.Petapoco\obj\Debug\netcoreapp3.1\HN.Scheduler.Repository.Petapoco.AssemblyInfo.cs
+F:\GIthub\HN.Scheduler.Backstage\HN.Scheduler.Backstage\HN.Scheduler.Repository.Petapoco\bin\Debug\netcoreapp3.1\HN.Scheduler.Repository.Petapoco.deps.json
+F:\GIthub\HN.Scheduler.Backstage\HN.Scheduler.Backstage\HN.Scheduler.Repository.Petapoco\bin\Debug\netcoreapp3.1\HN.Scheduler.Repository.Petapoco.dll
+F:\GIthub\HN.Scheduler.Backstage\HN.Scheduler.Backstage\HN.Scheduler.Repository.Petapoco\bin\Debug\netcoreapp3.1\HN.Scheduler.Repository.Petapoco.pdb
+F:\GIthub\HN.Scheduler.Backstage\HN.Scheduler.Backstage\HN.Scheduler.Repository.Petapoco\obj\Debug\netcoreapp3.1\HN.Scheduler.Repository.Petapoco.dll
+F:\GIthub\HN.Scheduler.Backstage\HN.Scheduler.Backstage\HN.Scheduler.Repository.Petapoco\obj\Debug\netcoreapp3.1\HN.Scheduler.Repository.Petapoco.pdb
+F:\GIthub\HN.Scheduler.Backstage\HN.Scheduler.Backstage\HN.Scheduler.Repository.Petapoco\obj\Debug\netcoreapp3.1\HN.Scheduler.Repository.Petapoco.csprojAssemblyReference.cache

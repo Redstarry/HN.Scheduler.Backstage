@@ -2,3 +2,11 @@ E:\BaiduNetdiskDownload\HN.Scheduler.Backstage\HN.Scheduler.Model\bin\Debug\netc
 E:\BaiduNetdiskDownload\HN.Scheduler.Backstage\HN.Scheduler.Model\obj\Debug\netcoreapp3.1\HN.Scheduler.Model.csprojAssemblyReference.cache
 E:\BaiduNetdiskDownload\HN.Scheduler.Backstage\HN.Scheduler.Model\obj\Debug\netcoreapp3.1\HN.Scheduler.Model.AssemblyInfoInputs.cache
 E:\BaiduNetdiskDownload\HN.Scheduler.Backstage\HN.Scheduler.Model\obj\Debug\netcoreapp3.1\HN.Scheduler.Model.AssemblyInfo.cs
+F:\GIthub\HN.Scheduler.Backstage\HN.Scheduler.Backstage\HN.Scheduler.Model\obj\Debug\netcoreapp3.1\HN.Scheduler.Model.AssemblyInfoInputs.cache
+F:\GIthub\HN.Scheduler.Backstage\HN.Scheduler.Backstage\HN.Scheduler.Model\obj\Debug\netcoreapp3.1\HN.Scheduler.Model.AssemblyInfo.cs
+F:\GIthub\HN.Scheduler.Backstage\HN.Scheduler.Backstage\HN.Scheduler.Model\bin\Debug\netcoreapp3.1\HN.Scheduler.Model.deps.json
+F:\GIthub\HN.Scheduler.Backstage\HN.Scheduler.Backstage\HN.Scheduler.Model\bin\Debug\netcoreapp3.1\HN.Scheduler.Model.dll
+F:\GIthub\HN.Scheduler.Backstage\HN.Scheduler.Backstage\HN.Scheduler.Model\bin\Debug\netcoreapp3.1\HN.Scheduler.Model.pdb
+F:\GIthub\HN.Scheduler.Backstage\HN.Scheduler.Backstage\HN.Scheduler.Model\obj\Debug\netcoreapp3.1\HN.Scheduler.Model.dll
+F:\GIthub\HN.Scheduler.Backstage\HN.Scheduler.Backstage\HN.Scheduler.Model\obj\Debug\netcoreapp3.1\HN.Scheduler.Model.pdb
+F:\GIthub\HN.Scheduler.Backstage\HN.Scheduler.Backstage\HN.Scheduler.Model\obj\Debug\netcoreapp3.1\HN.Scheduler.Model.csprojAssemblyReference.cache

@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HN.Scheduler</name>
+    </assembly>
+    <members>
+        <member name="M:HN.Scheduler.Controllers.SchedulerController.GetSchedulerItems(HN.Scheduler.Model.Page)">
+            <summary>
+             查询全部数据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HN.Scheduler.Controllers.SchedulerController.GetScheduler(HN.Scheduler.Model.FarmerScheduler.SelectScheduler)">
+            <summary>
+             根据条件进行查询数据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HN.Scheduler.Controllers.SchedulerController.AddScheduler(HN.Scheduler.Model.FarmerScheduler.CreateScheduler)">
+            <summary>
+             添加数据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HN.Scheduler.Controllers.SchedulerController.UpdateScheduler(System.String,HN.Scheduler.Model.FarmerScheduler.UpdateScheduler)">
+            <summary>
+             更新数据
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HN.Scheduler.Controllers.SchedulerController.DeleteScheduler(System.String)">
+            <summary>
+             删除数据
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

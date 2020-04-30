@@ -2,3 +2,16 @@ E:\BaiduNetdiskDownload\HN.Scheduler.Backstage\HN.Scheduler.Repository\bin\Debug
 E:\BaiduNetdiskDownload\HN.Scheduler.Backstage\HN.Scheduler.Repository\obj\Debug\netcoreapp3.1\HN.Scheduler.Repository.csprojAssemblyReference.cache
 E:\BaiduNetdiskDownload\HN.Scheduler.Backstage\HN.Scheduler.Repository\obj\Debug\netcoreapp3.1\HN.Scheduler.Repository.AssemblyInfoInputs.cache
 E:\BaiduNetdiskDownload\HN.Scheduler.Backstage\HN.Scheduler.Repository\obj\Debug\netcoreapp3.1\HN.Scheduler.Repository.AssemblyInfo.cs
+F:\GIthub\HN.Scheduler.Backstage\HN.Scheduler.Backstage\HN.Scheduler.Repository\obj\Debug\netcoreapp3.1\HN.Scheduler.Repository.csprojAssemblyReference.cache
+F:\GIthub\HN.Scheduler.Backstage\HN.Scheduler.Backstage\HN.Scheduler.Repository\obj\Debug\netcoreapp3.1\HN.Scheduler.Repository.AssemblyInfoInputs.cache
+F:\GIthub\HN.Scheduler.Backstage\HN.Scheduler.Backstage\HN.Scheduler.Repository\obj\Debug\netcoreapp3.1\HN.Scheduler.Repository.AssemblyInfo.cs
+F:\GIthub\HN.Scheduler.Backstage\HN.Scheduler.Backstage\HN.Scheduler.Repository\bin\Debug\netcoreapp3.1\HN.Scheduler.Repository.deps.json
+F:\GIthub\HN.Scheduler.Backstage\HN.Scheduler.Backstage\HN.Scheduler.Repository\bin\Debug\netcoreapp3.1\HN.Scheduler.Repository.dll
+F:\GIthub\HN.Scheduler.Backstage\HN.Scheduler.Backstage\HN.Scheduler.Repository\bin\Debug\netcoreapp3.1\HN.Scheduler.Repository.pdb
+F:\GIthub\HN.Scheduler.Backstage\HN.Scheduler.Backstage\HN.Scheduler.Repository\bin\Debug\netcoreapp3.1\HN.Scheduler.Model.dll
+F:\GIthub\HN.Scheduler.Backstage\HN.Scheduler.Backstage\HN.Scheduler.Repository\bin\Debug\netcoreapp3.1\HN.Scheduler.Repository.Petapoco.dll
+F:\GIthub\HN.Scheduler.Backstage\HN.Scheduler.Backstage\HN.Scheduler.Repository\bin\Debug\netcoreapp3.1\HN.Scheduler.Model.pdb
+F:\GIthub\HN.Scheduler.Backstage\HN.Scheduler.Backstage\HN.Scheduler.Repository\bin\Debug\netcoreapp3.1\HN.Scheduler.Repository.Petapoco.pdb
+F:\GIthub\HN.Scheduler.Backstage\HN.Scheduler.Backstage\HN.Scheduler.Repository\obj\Debug\netcoreapp3.1\HN.Scheduler.Repository.csproj.CopyComplete
+F:\GIthub\HN.Scheduler.Backstage\HN.Scheduler.Backstage\HN.Scheduler.Repository\obj\Debug\netcoreapp3.1\HN.Scheduler.Repository.dll
+F:\GIthub\HN.Scheduler.Backstage\HN.Scheduler.Backstage\HN.Scheduler.Repository\obj\Debug\netcoreapp3.1\HN.Scheduler.Repository.pdb
